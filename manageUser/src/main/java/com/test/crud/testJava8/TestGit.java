@@ -6,6 +6,7 @@ public class TestGit {
 		// add a comment
 		System.out.println("first to commmit");
 		System.out.println("second commit");
+		System.out.println("third commit");
 	}
 
 }
