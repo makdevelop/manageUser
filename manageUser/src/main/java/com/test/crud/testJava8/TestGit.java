@@ -12,6 +12,8 @@ public class TestGit {
 		System.out.println("add message from branch first_branch");
 
 		System.out.println("this message is from second branch");
+
+		System.out.println("add new comment to commit it");
 	}
 
 }
