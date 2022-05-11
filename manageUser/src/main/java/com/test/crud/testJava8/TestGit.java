@@ -10,6 +10,7 @@ public class TestGit {
 		System.out.println("fourth commit ");
 		System.out.println("fifth  commit from iintellij 2");
 		System.out.println("add message from branch first_branch");
+		System.out.println("add message from branch third-branch");
 	}
 
 }
