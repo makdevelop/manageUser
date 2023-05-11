@@ -11,6 +11,8 @@ public class TestGit {
 		System.out.println("fifth  commit from iintellij 2");
 		System.out.println("add message from branch first_branch");
 
+		System.out.println("this line is added in branch four");
+
 	}
 
 }
