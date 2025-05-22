@@ -38,7 +38,7 @@ jobs:
           ## we should not put credentials user in the file, so we configure secrets and variable in github
           ## DOCKER_HUB_USERNAME: created in Github sercrets and variable
           ## create the token in DOCKER HUB and copy the value in Github sercrets and variable
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/manage_user:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/manage-user:latest
 
       - name: Login to Docker Hub
         uses: docker/login-action@v3
