@@ -25,8 +25,9 @@ jobs:
 
       - name: Build the app
         run: |
+          cd manageUser
           mvn clean
-          mvn -B -DskipTests package --file manageUser/pom.xml
+          mvn -B -DskipTests package --file pom.xml
 
       - name: Build docker image
         uses: docker/build-push-action@v6
