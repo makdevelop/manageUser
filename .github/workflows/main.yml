@@ -32,7 +32,7 @@ jobs:
       - name: Build docker image
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./manageUser
           dockerfile: Dockerfile
           push: false
           ## we should not put credentials user in the file, so we configure secrets and variable in github
